@@ -1,0 +1,55 @@
+.inv{
+    visibility: hidden ;
+    color : red ;
+}
+
+.show{
+    visibility: visible;
+}
+
+body{
+    background-color : rgb(46, 9, 59) ;
+    text-align : center ;
+    color: rgb(5, 172, 190);
+}
+h1{
+    font-size : 70px ;
+    font-weight : bold ;
+}
+
+/* .div-1{
+    background-color : white ;
+}
+
+.div-2{
+    background-color : white ;
+} */
+
+.divChild{
+    display : inline-block ;
+    margin-inline: 40px;
+    margin-top : 60px;
+    padding : 100px ;
+    background-color : white ;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #000;
+    overflow: auto;
+    border-radius: 20px;
+}
+.mainDiv{
+    text-align: center;
+}
+button{
+    margin : 20px;
+    border-radius: 30px;
+    height: 30px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(5, 172, 190);
+}
+
+.secondDiv{
+    display: inline-block;
+}
